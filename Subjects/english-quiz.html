@@ -25,27 +25,20 @@
 		// this is a multidimensional array with 4 inner array elements with 5 elements inside them
 		// if you don't want answers viewable in the code, then you should use PHP and mySQL database
 		var incorrect = [
-		 [""],
-		 [""],
-		 [""],
-		 [""],
-		 [""],
-		 [""],
-		 [""],
-		 [""]
-		];
+		 ["A sentence has to have a subject and a predicate. "],
+		 ["A sentence has to have a subject and a predicate. "],
+		 ["Independent clause: I am sleepy. Independent clause: I have to go to work. Comma splice: I am sleepy, I have to go to work. (A comma splice is a type of run-on sentence , which is grammatically incorrect.)"],
+		 ["Independent clause: I am sleepy. Independent clause:  I have to go to work.Comma splice: I am sleepy, I have to go to work.  (A comma splice is a type of run-on sentence , which is grammatically incorrect.)"]
+		 ];
 		
 		var questions = [
-		  ["", "", "", "", "", ""],
-		  ["", "", "", "", "", ""],
-		  ["", "", "", "", "", ""],
-		  ["", "", "", "", "", ""],
-		  ["", "", "", "", "", ""],
-		  ["", "", "", "", "", ""],
-		  ["", "", "", "", "", ""],
-		  ["", "", "", "", "", ""],
-		  ["", "", "", "", "", ""]
-		  ];
+		  ["Which one is the phrase sentence fragment or sentence? He was.", "sentence", "sentence fragment", "", "", "B"],
+		  ["Which one is the phrase sentence fragment or sentence? She was a cat.", "sentence", "sentence fragment", "", "", "A"],
+		  ["What should the comma be changed to? I am fast, I have to do homework.", "period", "semi colon", "colon", "leave as is.", "A"],
+		  ["What are semicolons used for in a sentence?", "lists", "to link two independt clauses", "nothing", "", "B"],
+		  ["Which verb goes with the subject? Shelby has (died,die).", "died", "die", "", "", "A"],
+		  ["Which verb goes with the subject? Ethan wanted to (study, studied).", "study", "studied", "", "", "A"]
+                  ];
 		// this get function is short for the getElementById function  
 		function get(x){
 		  return document.getElementById(x);
